@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bootstrap & the Grids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="/css/site2.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">First Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/simple.html">Simple Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Thor.html">My Hero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/mcuFanPage.html">MCU Fan Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="container-fluid">
+            <div class="row row-cols-1 gy-2 minHeight">
+                <div class="col col-md-6">
+                        <article class="bg-secondary text-light h-100">
+                            <img class="thorLogo mx-auto d-block img-fluid pb-5" src="/img/daredevil_logo.png" />
+                        </article>
+                </div>
+                <div class="col col-md-6">
+                    <article class="bg-secondary text-light h-100">
+                        <h1 class="thorQuote text-center pt-5">"If I take a night off, people get hurt..."</h1>
+                    </article>
+            </div>
+                <div class="col col-md-6">
+                    <article class="bg-dark text-light h-100">
+                        <img class="thorImage mx-auto d-block" src="/img/daredevil1.png" />
+                        <article class="container mt-3"><p class="thorBlurb">Daredevil is a fictional character appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby. The character first appeared in Daredevil #1 (April 1964). Writer/artist Frank Miller's influential tenure on the title in the early 1980s cemented the character as a popular and influential part of the Marvel Universe. Daredevil is commonly known by such epithets as "Hornhead", "The Man Without Fear" and "The Devil of Hell's Kitchen".</p></article>
+                        
+                    </article>
+                </div>
+                <div class="col col-md-6">
+                    <article class="bg-secondary text-light h-100">
+                        <div id="carousel" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item">
+                               <a href="/hulk.html"> <img src="/img/HulkCarousel.png" class="hulkImg mx-auto d-block w-100" alt="picture of the hulk"> </a> 
+                              </div>
+                              <div class="carousel-item active">
+                               <a href="/grid6 copy 2.html"><img src="/img/thorCarousel.png" class="hulkImg mx-auto d-block w-100" alt="comic picture of Thor"></a> 
+                              </div>
+                              <div class="carousel-item">
+                                <a href="/daredevil.html"></a>  <img src="/img/comicDareDevil.png" class="hulkImg mx-auto d-block w-100" alt="comic picture of DareDevil">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </article>
+                </div>
+            </div>
+        </divc>
+    </main>
+
+    <footer class="py-3 mt-3 bg-dark text-secondary">
+        <div class="text-center">
+            Bootstrap and the Grids - by Astra Cohort.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
